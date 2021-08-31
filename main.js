@@ -12,7 +12,9 @@ const elementInView = (el, dividend = 1) => {
 
 const handleScrollAnimation = () => {
   scrollElements.forEach((el) => {
+    if (el.scrollTop > 10) {
       el.classList.add("minimized");
+    }
   })
 }
 
