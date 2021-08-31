@@ -10,13 +10,13 @@ const elementInView = (el, dividend = 1) => {
   );
 };
 
-// const handleScrollAnimation = () => {
-//   scrollElements.forEach((el) => {
-//     if (elementInView(el, 1.25)) {
-//       console.log("Scrolling");
-//     } 
-//   })
-// }
+const handleScrollAnimation = () => {
+  scrollElements.forEach((el) => {
+    if (elementInView(el, 1.25)) {
+      el.classList.add("minimized");
+    } 
+  })
+}
 
 window.addEventListener("scroll", () => {
   console.log("scrolling");
