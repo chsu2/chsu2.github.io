@@ -12,6 +12,7 @@ const elementInView = (el, dividend = 1) => {
 
 const handleScrollAnimation = () => {
   scrollElements.forEach((el) => {
+    debugger
     if (el.scrollTop > 0) {
       console.log("adding class");
       el.classList.add("minimized");
