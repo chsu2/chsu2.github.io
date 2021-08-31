@@ -12,7 +12,8 @@ const elementInView = (el, dividend = 1) => {
 
 const handleScrollAnimation = () => {
   scrollElements.forEach((el) => {
-    if (elementInView(el, 1.25)) {
+    if (elementInView(el, 1)) {
+
       el.classList.add("minimized");
     } 
   })
