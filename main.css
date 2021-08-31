@@ -20,6 +20,10 @@
   animation: minimize 1s ease-in;
 }
 
+.body-text {
+  font-size: large;
+}
+
 @keyframes minimize {
   100% {
     min-height: auto;
