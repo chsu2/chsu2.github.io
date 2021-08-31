@@ -1,5 +1,5 @@
 // grab elements for scrolling
-const scrollElements = document.querySelectorAll(".header");
+const scrollElements = document.querySelectorAll(".heading");
 
 const elementInView = (el, dividend = 1) => {
   const elementTop = el.getBoundingClientRect().top;

@@ -3,7 +3,7 @@
   src: url(F25_Bank_Printer.woff);
 }
 
-.header {
+.heading {
   font-family: bank-printer;
   width: 100%;
   min-height: 100%;
@@ -16,7 +16,7 @@
   color: plum;
 }
 
-.header.minimized {
+.heading.minimized {
   animation: minimize 1s ease-in;
 }
 
