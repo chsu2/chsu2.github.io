@@ -1,4 +1,4 @@
-// grab elements for scrolling
+// grab elements for scrolling the page
 const scrollElement = document.querySelector(".heading");
 
 const elementInView = (el, dividend = 1) => {

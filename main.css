@@ -23,11 +23,11 @@
 .body-text {
   font-size: large;
 }
-
+/* 
 @keyframes minimize {
   100% {
     min-height: auto;
     font-size: 1em;
     color: black;
-  }
+  } */
 }
